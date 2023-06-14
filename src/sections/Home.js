@@ -1,5 +1,5 @@
-import React, { Suspense } from 'react';
 import styled from 'styled-components';
+import CoverVideo from '../components/CoverVideo';
 
 const Section = styled.section`
   position: relative;
@@ -10,7 +10,7 @@ const Section = styled.section`
 const Home = () => {
   return (
     <Section>
-        <h1>Video</h1>
+        <CoverVideo />
         <h1>Logo</h1>
         <h1>NavBar</h1>
     </Section>
